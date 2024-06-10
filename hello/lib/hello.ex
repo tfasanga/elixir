@@ -8,11 +8,11 @@ defmodule Hello do
 
   ## Examples
 
-      iex> Hello.hello()
+      iex> Hello.say()
       :world
 
   """
-  def hello do
-    :world
+  def say do
+    IO.puts "Hello, World!"
   end
 end
